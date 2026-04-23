@@ -11,4 +11,4 @@ prompts/
       ├── prompt.md              # Base prompt  
 ```
 
-For further details see (this document)[https://docs.google.com/document/d/1BYzqoV3ArfP1XTjJwrEbKzXRDgRQMfcaG-RTHJwhx7s/edit?tab=t.etf3heqlbyzg]
+For further details see [this document](https://docs.google.com/document/d/1BYzqoV3ArfP1XTjJwrEbKzXRDgRQMfcaG-RTHJwhx7s/edit?tab=t.etf3heqlbyzg)
