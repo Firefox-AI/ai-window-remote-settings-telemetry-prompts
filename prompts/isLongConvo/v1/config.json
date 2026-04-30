@@ -1,0 +1,8 @@
+{
+    "version": 1.0,
+    "is_default": true,
+    "model": "qwen3-235b-a22b-instruct-2507-maas",
+    "telemetry_name": "isLongConvo",
+    "triggers": ["long_conversation"],
+    "run_terminal": true
+}

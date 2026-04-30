@@ -1,0 +1,12 @@
+{
+  "wasSuccessful": ["successful", "not successful", "ongoing"],
+  "conversationTopic": [
+    "sports",
+    "internetCulture",
+    "shopping",
+    "history",
+    "pets",
+    "currentEvents",
+  ],
+  "memoryReferenced": ["yes", "no"],
+}
