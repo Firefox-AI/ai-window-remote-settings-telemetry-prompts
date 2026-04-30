@@ -3,6 +3,6 @@
     "is_default": true,
     "model": "qwen3-235b-a22b-instruct-2507-maas",
     "telemetry_name": "wasSuccessful",
-    "triggers": ["population1", "population2", "population4", "population8"],
+    "triggers": ["uniform_sample", "uniform_sample_turn2", "uniform_sample_turn4", "uniform_sample_turn8"],
     "run_terminal": true
 }
