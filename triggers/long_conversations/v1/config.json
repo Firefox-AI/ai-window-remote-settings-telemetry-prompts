@@ -1,0 +1,9 @@
+{
+    "name": "long_conversation",
+    "check": "min_turns",
+    "params": { minTurns: 10 },
+    "sampling_probability": 1.0,
+    "version": "1.0",
+    "description":
+      "long conversation flag -- samples conversations that exceed 10 turns",
+}
