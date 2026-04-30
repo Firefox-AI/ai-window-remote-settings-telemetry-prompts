@@ -1,0 +1,8 @@
+{
+    "name": "uniform_sample_turn4",
+    "check": "uniform_sample_at_turn",
+    "params": { turn: 4 },
+    "sampling_probability": 1.0,
+    "version": "1.0",
+    "description": "",
+}
