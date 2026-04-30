@@ -1,0 +1,8 @@
+{
+    "name": "uniform_sample",
+    "check": "uniform_sample",
+    "params": {},
+    "sampling_probability": 1.0,
+    "version": "1.0",
+    "description": "",
+}
