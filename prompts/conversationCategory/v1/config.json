@@ -1,7 +1,7 @@
 {
     "version": 1.0,
     "model": "qwen3-235b-a22b-instruct-2507-maas",
-    "telemetry_name": "wasSuccessful",
+    "telemetry_name": "conversationCategory",
     "triggers": ["uniform_sample", "uniform_sample_turn2", "uniform_sample_turn4", "uniform_sample_turn8"],
     "run_terminal": true
 }
