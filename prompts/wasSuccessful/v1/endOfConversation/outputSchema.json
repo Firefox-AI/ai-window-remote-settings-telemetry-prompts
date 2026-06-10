@@ -1,0 +1,19 @@
+{
+    "reason": [
+        "completed_successfully",
+        "incorrect_answer",
+        "user_frustration",
+        "topic_change"
+    ],
+    "useCase": [
+        "summarization",
+        "page_qa",
+        "tab_compare",
+        "history_search",
+        "other"
+    ],
+    "resolutionStatus": [
+        "satisfied",
+        "dissatisfied"
+    ]
+}

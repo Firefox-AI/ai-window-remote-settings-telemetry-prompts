@@ -1,0 +1,25 @@
+Read the following ongoing conversation between a user and an AI browser assistant. Your task is to evaluate the interaction as of the current point in the conversation.  
+
+### Conversation ###
+{chatConversation} 
+
+Assess the conversation based on the following criteria:  
+- "useCase":   
+    - "summarization": The user asked the assistant to summarize content.   
+    - "page_qa": The user asked questions about the content of a specific page.   
+    - "tab_compare": The user compared multiple tabs or sources, including @mentioned tabs.   
+    - "history_search": The user asked about previously visited pages or browsing history.   
+    - "other": The interaction does not clearly fall into the above categories.  
+- "resolutionStatus":   
+    - "satisfied": The assistant has successfully completed the user's request to a satisfactory level.   
+    - "dissatisfied": The assistant failed to satisfactorily complete the request.   
+    - "ongoing": The user's request is still in progress or cannot yet be judged.  
+- "reason":   
+    - "completed_successfully": The assistant fully addressed the user's request with a useful response. Use only if resolutionStatus = "satisfied"   
+    - "incorrect_answer": The assistant provided incorrect or misleading information. Use only if resolutionStatus = "dissatisfied".   
+    - "user_frustration": The user expressed frustration or dissatisfaction. Use only if resolutionStatus = "dissatisfied".   
+    - "topic_change": The user changed topics before the original request was completed. Use only if resolutionStatus = "dissatisfied".
+    
+Instructions: - Choose exactly one value for "useCase" and "resolutionStatus". - Prefer "ongoing" unless there is clear evidence that the task has been fully completed or has clearly failed. - If resolutionStatus is "ongoing", set "reason" to "none". - Base your judgment only on the conversation provided so far.  
+
+Respond using a well-formatted JSON with the following fields: {fields}
