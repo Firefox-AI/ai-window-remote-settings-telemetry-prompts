@@ -3,7 +3,8 @@
         "completed_successfully",
         "incorrect_answer",
         "user_frustration",
-        "topic_change"
+        "topic_change",
+        "abandoned"
     ],
     "useCase": [
         "summarization",

@@ -3,5 +3,7 @@
     "model": "qwen3-235b-a22b-instruct-2507-maas",
     "telemetry_name": "wasSuccessful",
     "triggers": [],
-    "run_terminal": true
+    "run_terminal": true,
+    "purpose": "telemetry",
+    "service_type": "telemetry"
 }
