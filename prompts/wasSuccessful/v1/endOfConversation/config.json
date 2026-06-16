@@ -4,6 +4,6 @@
     "telemetry_name": "wasSuccessful",
     "triggers": [],
     "run_terminal": true,
-    "purpose": "telemetry",
+    "purpose": "chat",
     "service_type": "telemetry"
 }
