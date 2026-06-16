@@ -4,6 +4,6 @@
     "telemetry_name": "wasSuccessful",
     "triggers": ["uniform_sample", "uniform_sample_turn2", "uniform_sample_turn4", "uniform_sample_turn8"],
     "run_terminal": false,
-    "purpose": "telemetry",
+    "purpose": "chat",
     "service_type": "telemetry"
 }
