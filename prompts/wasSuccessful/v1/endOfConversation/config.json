@@ -2,7 +2,7 @@
     "version": 1.0,
     "model": "qwen3-235b-a22b-instruct-2507-maas",
     "telemetry_name": "wasSuccessful",
-    "triggers": [],
+    "triggers": ["uniform_sample"],
     "run_terminal": true,
     "purpose": "telemetry",
     "service_type": "telemetry"
